@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="my_publisher_example_pkg" type="simple_topic_VELpublisher.py" name="Vel_cmd"  output="screen">
+    </node>
+</launch>
