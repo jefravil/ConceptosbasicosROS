@@ -37,7 +37,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=services_quiz
+CATKIN_WHITELIST_PACKAGES:STRING=my_poo_python_class
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -462,6 +462,12 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+my_POO_python_class_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_POO_python_class
+
+//Value Computed by CMake
+my_POO_python_class_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_POO_python_class
+
+//Value Computed by CMake
 my_custom_srv_msg_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_custom_srv_msg_pkg
 
 //Value Computed by CMake
@@ -472,6 +478,12 @@ my_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_package
 
 //Value Computed by CMake
 my_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_package
+
+//Value Computed by CMake
+my_poo_python_class_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_poo_python_class
+
+//Value Computed by CMake
+my_poo_python_class_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/my_poo_python_class
 
 //Value Computed by CMake
 my_publisher_example_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/my_publisher_example_pkg
