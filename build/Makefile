@@ -285,56 +285,43 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages_py
+# Target rules for targets named services_quiz_genpy
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages_py
-.PHONY : my_custom_srv_msg_pkg_generate_messages_py
+services_quiz_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_genpy
+.PHONY : services_quiz_genpy
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages_py/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages_py/fast
+services_quiz_genpy/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_genpy.dir/build.make services_quiz/CMakeFiles/services_quiz_genpy.dir/build
+.PHONY : services_quiz_genpy/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_genlisp
+# Target rules for targets named services_quiz_gennodejs
 
 # Build rule for target.
-my_custom_srv_msg_pkg_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_genlisp
-.PHONY : my_custom_srv_msg_pkg_genlisp
+services_quiz_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_gennodejs
+.PHONY : services_quiz_gennodejs
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_genlisp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_genlisp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_genlisp.dir/build
-.PHONY : my_custom_srv_msg_pkg_genlisp/fast
+services_quiz_gennodejs/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_gennodejs.dir/build.make services_quiz/CMakeFiles/services_quiz_gennodejs.dir/build
+.PHONY : services_quiz_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages_nodejs
+# Target rules for targets named services_quiz_generate_messages_nodejs
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages_nodejs
-.PHONY : my_custom_srv_msg_pkg_generate_messages_nodejs
+services_quiz_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages_nodejs
+.PHONY : services_quiz_generate_messages_nodejs
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages_nodejs/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_nodejs.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_nodejs.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _catkin_empty_exported_target
-
-# Build rule for target.
-_catkin_empty_exported_target: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/_catkin_empty_exported_target.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
+services_quiz_generate_messages_nodejs/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages_nodejs.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages_nodejs.dir/build
+.PHONY : services_quiz_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
@@ -346,7 +333,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f services_quiz/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make services_quiz/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -359,8 +346,34 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f services_quiz/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make services_quiz/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named services_quiz_generate_messages_py
+
+# Build rule for target.
+services_quiz_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages_py
+.PHONY : services_quiz_generate_messages_py
+
+# fast build rule for target.
+services_quiz_generate_messages_py/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages_py.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages_py.dir/build
+.PHONY : services_quiz_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named services_quiz_generate_messages_cpp
+
+# Build rule for target.
+services_quiz_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages_cpp
+.PHONY : services_quiz_generate_messages_cpp
+
+# fast build rule for target.
+services_quiz_generate_messages_cpp/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages_cpp.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages_cpp.dir/build
+.PHONY : services_quiz_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -372,60 +385,21 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f services_quiz/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make services_quiz/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_gennodejs
+# Target rules for targets named _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage
 
 # Build rule for target.
-my_custom_srv_msg_pkg_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_gennodejs
-.PHONY : my_custom_srv_msg_pkg_gennodejs
+_services_quiz_generate_messages_check_deps_BB8CustomServiceMessage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage
+.PHONY : _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_gennodejs/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_gennodejs.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_gennodejs.dir/build
-.PHONY : my_custom_srv_msg_pkg_gennodejs/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
-
-# Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage
-
-# Build rule for target.
-_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage
-.PHONY : _my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage
-
-# fast build rule for target.
-_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/build
-.PHONY : _my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage/fast
-
-#=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_geneus
-
-# Build rule for target.
-my_custom_srv_msg_pkg_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_geneus
-.PHONY : my_custom_srv_msg_pkg_geneus
-
-# fast build rule for target.
-my_custom_srv_msg_pkg_geneus/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_geneus.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_geneus.dir/build
-.PHONY : my_custom_srv_msg_pkg_geneus/fast
+_services_quiz_generate_messages_check_deps_BB8CustomServiceMessage/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/_services_quiz_generate_messages_check_deps_BB8CustomServiceMessage.dir/build.make services_quiz/CMakeFiles/_services_quiz_generate_messages_check_deps_BB8CustomServiceMessage.dir/build
+.PHONY : _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -437,99 +411,99 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f services_quiz/CMakeFiles/std_msgs_generate_messages_py.dir/build.make services_quiz/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named _my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage
+# Target rules for targets named services_quiz_geneus
 
 # Build rule for target.
-_my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage
-.PHONY : _my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage
+services_quiz_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_geneus
+.PHONY : services_quiz_geneus
 
 # fast build rule for target.
-_my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage.dir/build
-.PHONY : _my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage/fast
+services_quiz_geneus/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_geneus.dir/build.make services_quiz/CMakeFiles/services_quiz_geneus.dir/build
+.PHONY : services_quiz_geneus/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_genpy
+# Target rules for targets named services_quiz_generate_messages
 
 # Build rule for target.
-my_custom_srv_msg_pkg_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_genpy
-.PHONY : my_custom_srv_msg_pkg_genpy
+services_quiz_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages
+.PHONY : services_quiz_generate_messages
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_genpy/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_genpy.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_genpy.dir/build
-.PHONY : my_custom_srv_msg_pkg_genpy/fast
+services_quiz_generate_messages/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages.dir/build
+.PHONY : services_quiz_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages
+# Target rules for targets named services_quiz_generate_messages_eus
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages
-.PHONY : my_custom_srv_msg_pkg_generate_messages
+services_quiz_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages_eus
+.PHONY : services_quiz_generate_messages_eus
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages/fast
+services_quiz_generate_messages_eus/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages_eus.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages_eus.dir/build
+.PHONY : services_quiz_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages_cpp
+# Target rules for targets named services_quiz_gencpp
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages_cpp
-.PHONY : my_custom_srv_msg_pkg_generate_messages_cpp
+services_quiz_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_gencpp
+.PHONY : services_quiz_gencpp
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages_cpp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages_cpp/fast
+services_quiz_gencpp/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_gencpp.dir/build.make services_quiz/CMakeFiles/services_quiz_gencpp.dir/build
+.PHONY : services_quiz_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages_lisp
+# Target rules for targets named services_quiz_generate_messages_lisp
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages_lisp
-.PHONY : my_custom_srv_msg_pkg_generate_messages_lisp
+services_quiz_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_generate_messages_lisp
+.PHONY : services_quiz_generate_messages_lisp
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages_lisp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_lisp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_lisp.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages_lisp/fast
+services_quiz_generate_messages_lisp/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_generate_messages_lisp.dir/build.make services_quiz/CMakeFiles/services_quiz_generate_messages_lisp.dir/build
+.PHONY : services_quiz_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_gencpp
+# Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
-my_custom_srv_msg_pkg_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_gencpp
-.PHONY : my_custom_srv_msg_pkg_gencpp
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_gencpp/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_gencpp.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_gencpp.dir/build
-.PHONY : my_custom_srv_msg_pkg_gencpp/fast
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make services_quiz/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named my_custom_srv_msg_pkg_generate_messages_eus
+# Target rules for targets named services_quiz_genlisp
 
 # Build rule for target.
-my_custom_srv_msg_pkg_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_custom_srv_msg_pkg_generate_messages_eus
-.PHONY : my_custom_srv_msg_pkg_generate_messages_eus
+services_quiz_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 services_quiz_genlisp
+.PHONY : services_quiz_genlisp
 
 # fast build rule for target.
-my_custom_srv_msg_pkg_generate_messages_eus/fast:
-	$(MAKE) -f my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus.dir/build.make my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus.dir/build
-.PHONY : my_custom_srv_msg_pkg_generate_messages_eus/fast
+services_quiz_genlisp/fast:
+	$(MAKE) -f services_quiz/CMakeFiles/services_quiz_genlisp.dir/build.make services_quiz/CMakeFiles/services_quiz_genlisp.dir/build
+.PHONY : services_quiz_genlisp/fast
 
 # Help Target
 help:
@@ -553,25 +527,23 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... my_custom_srv_msg_pkg_generate_messages_py"
-	@echo "... my_custom_srv_msg_pkg_genlisp"
-	@echo "... my_custom_srv_msg_pkg_generate_messages_nodejs"
-	@echo "... _catkin_empty_exported_target"
+	@echo "... services_quiz_genpy"
+	@echo "... services_quiz_gennodejs"
+	@echo "... services_quiz_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... services_quiz_generate_messages_py"
+	@echo "... services_quiz_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... my_custom_srv_msg_pkg_gennodejs"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... _my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage"
-	@echo "... my_custom_srv_msg_pkg_geneus"
+	@echo "... _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... _my_custom_srv_msg_pkg_generate_messages_check_deps_BB8CustomServiceMessage"
-	@echo "... my_custom_srv_msg_pkg_genpy"
-	@echo "... my_custom_srv_msg_pkg_generate_messages"
-	@echo "... my_custom_srv_msg_pkg_generate_messages_cpp"
-	@echo "... my_custom_srv_msg_pkg_generate_messages_lisp"
-	@echo "... my_custom_srv_msg_pkg_gencpp"
-	@echo "... my_custom_srv_msg_pkg_generate_messages_eus"
+	@echo "... services_quiz_geneus"
+	@echo "... services_quiz_generate_messages"
+	@echo "... services_quiz_generate_messages_eus"
+	@echo "... services_quiz_gencpp"
+	@echo "... services_quiz_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... services_quiz_genlisp"
 .PHONY : help
 
 

@@ -37,7 +37,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=my_custom_srv_msg_pkg
+CATKIN_WHITELIST_PACKAGES:STRING=services_quiz
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -505,6 +505,12 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
+
+//Value Computed by CMake
+services_quiz_BINARY_DIR:STATIC=/home/user/catkin_ws/build/services_quiz
+
+//Value Computed by CMake
+services_quiz_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/services_quiz
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake

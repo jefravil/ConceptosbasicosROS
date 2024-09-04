@@ -61,7 +61,7 @@ def sqBB8(side,repetitions):
             #por 5 para que en 5 seg se mueva 1 m
             rospy.sleep(tiempo)
             twist.linear.x = 0
-            twist.angular.z = 1.57 #1.57rad/s
+            twist.angular.z = 1.5707963267948966 #1.57rad/s
             pub.publish(twist)
             rospy.sleep(1) #1seg para que gire 90 deg que son 1.57 rad
             twist.linear.x = 0

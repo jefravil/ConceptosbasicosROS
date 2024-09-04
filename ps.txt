@@ -1,0 +1,11 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user         1  0.0  0.0   3980  3016 ?        Ss   19:28   0:00 /bin/bash -c sudo ln -sfv /opt/ros/noetic /opt/ros/latest; sleep infinity
+user         9  0.0  0.0   2512   584 ?        S    19:28   0:00 sleep infinity
+user       195  0.0  0.0   5820  4808 pts/1    Ss+  19:28   0:00 /bin/bash -c source /home/user/.bashrc;  export ROS_PACKAGE_PATH=/home/user/quiz_ws:$ROS_PACKAGE_PATH;  export ROS_HOSTNAME=1_quiz_correction;  export ROS_MASTER_URI=http://1_simulation:11311;  export DOCKER_HOST_IP_ADDRESS=172.31.51.131;  export SLOT_PREFIX=53828777-dfa1-48e6-8c87-ed27370e328e;  roslaunch tests_quizes services_quiz.launch --screen gui:=false  
+user       266  0.6  0.1 255156 29688 pts/1    Sl+  19:28   0:00 /usr/bin/python3 /opt/ros/noetic/bin/roslaunch tests_quizes services_quiz.launch --screen gui:=false
+user       274  0.1  0.0   5992  5292 ?        Ss   19:28   0:00 bash /home/user/quiz_ws/Quizes/tests_quizes/scripts/services_quiz.sh __name:=services_quiz_node __log:=/home/user/.ros/log/c0c65818-6af2-11ef-a7d1-0242c0a88006/services_quiz_node-1.log
+user       732  1.1  0.1 254896 29280 ?        Sl   19:29   0:00 /usr/bin/python3 /opt/ros/noetic/bin/roslaunch services_quiz start_bb8_move_custom_service_server.launch
+user       741 11.8  0.1 547660 26780 ?        Ssl  19:29   0:05 python /home/user/catkin_ws/src/services_quiz/scripts/bb8_move_custom_service_server.py __name:=service_movebb8custom_server __log:=/home/user/.ros/log/c0c65818-6af2-11ef-a7d1-0242c0a88006/service_movebb8custom_server-1.log
+user       752  1.6  0.1 254888 29392 ?        Sl   19:29   0:00 /usr/bin/python3 /opt/ros/noetic/bin/roslaunch services_quiz call_bb8_move_in_square_custom_service_server.launch
+user       761  8.4  0.1 473544 26640 ?        Ssl  19:29   0:02 python /home/user/catkin_ws/src/services_quiz/scripts/bb8_move_custom_service_client.py __name:=service_movebb8square_client __log:=/home/user/.ros/log/c0c65818-6af2-11ef-a7d1-0242c0a88006/service_movebb8square_client-1.log
+user       772  0.0  0.0   5904  2844 ?        R    19:30   0:00 ps aux
