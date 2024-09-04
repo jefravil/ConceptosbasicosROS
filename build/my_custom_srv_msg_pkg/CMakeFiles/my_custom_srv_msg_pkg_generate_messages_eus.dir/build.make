@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/user/catkin_ws/build
 include my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus.dir/progress.make
 
 my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.l
+my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.l
 my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/manifest.l
 
 
@@ -62,12 +63,18 @@ my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus: /h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from my_custom_srv_msg_pkg/MyCustomServiceMessage.srv"
 	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv
 
+/home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.l: /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from my_custom_srv_msg_pkg/BB8CustomServiceMessage.srv"
+	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv
+
 /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for my_custom_srv_msg_pkg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for my_custom_srv_msg_pkg"
 	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg my_custom_srv_msg_pkg std_msgs
 
 my_custom_srv_msg_pkg_generate_messages_eus: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus
 my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.l
+my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.l
 my_custom_srv_msg_pkg_generate_messages_eus: /home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/manifest.l
 my_custom_srv_msg_pkg_generate_messages_eus: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus.dir/build.make
 

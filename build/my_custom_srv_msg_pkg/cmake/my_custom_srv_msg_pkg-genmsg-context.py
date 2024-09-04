@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+services_str = "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv;/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
 pkg_name = "my_custom_srv_msg_pkg"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

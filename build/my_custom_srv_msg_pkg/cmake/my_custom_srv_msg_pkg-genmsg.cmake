@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "my_custom_srv_msg_pkg: 0 messages, 1 services")
+message(STATUS "my_custom_srv_msg_pkg: 0 messages, 2 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_my_custom_srv_msg_pkg_generate_messages_check_deps_${_filenam
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "my_custom_srv_msg_pkg" "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" ""
 )
 
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
+add_custom_target(_my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "my_custom_srv_msg_pkg" "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -32,6 +37,12 @@ add_custom_target(_my_custom_srv_msg_pkg_generate_messages_check_deps_${_filenam
 ### Generating Services
 _generate_srv_cpp(my_custom_srv_msg_pkg
   "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/my_custom_srv_msg_pkg
+)
+_generate_srv_cpp(my_custom_srv_msg_pkg
+  "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/my_custom_srv_msg_pkg
@@ -51,6 +62,8 @@ add_dependencies(my_custom_srv_msg_pkg_generate_messages my_custom_srv_msg_pkg_g
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" NAME_WE)
 add_dependencies(my_custom_srv_msg_pkg_generate_messages_cpp _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
+add_dependencies(my_custom_srv_msg_pkg_generate_messages_cpp _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(my_custom_srv_msg_pkg_gencpp)
@@ -65,6 +78,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_srv_msg_pkg_generate_mess
 ### Generating Services
 _generate_srv_eus(my_custom_srv_msg_pkg
   "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my_custom_srv_msg_pkg
+)
+_generate_srv_eus(my_custom_srv_msg_pkg
+  "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/my_custom_srv_msg_pkg
@@ -84,6 +103,8 @@ add_dependencies(my_custom_srv_msg_pkg_generate_messages my_custom_srv_msg_pkg_g
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" NAME_WE)
 add_dependencies(my_custom_srv_msg_pkg_generate_messages_eus _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
+add_dependencies(my_custom_srv_msg_pkg_generate_messages_eus _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(my_custom_srv_msg_pkg_geneus)
@@ -98,6 +119,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_srv_msg_pkg_generate_mess
 ### Generating Services
 _generate_srv_lisp(my_custom_srv_msg_pkg
   "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/my_custom_srv_msg_pkg
+)
+_generate_srv_lisp(my_custom_srv_msg_pkg
+  "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/my_custom_srv_msg_pkg
@@ -117,6 +144,8 @@ add_dependencies(my_custom_srv_msg_pkg_generate_messages my_custom_srv_msg_pkg_g
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" NAME_WE)
 add_dependencies(my_custom_srv_msg_pkg_generate_messages_lisp _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
+add_dependencies(my_custom_srv_msg_pkg_generate_messages_lisp _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(my_custom_srv_msg_pkg_genlisp)
@@ -131,6 +160,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS my_custom_srv_msg_pkg_generate_mess
 ### Generating Services
 _generate_srv_nodejs(my_custom_srv_msg_pkg
   "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/my_custom_srv_msg_pkg
+)
+_generate_srv_nodejs(my_custom_srv_msg_pkg
+  "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/my_custom_srv_msg_pkg
@@ -150,6 +185,8 @@ add_dependencies(my_custom_srv_msg_pkg_generate_messages my_custom_srv_msg_pkg_g
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" NAME_WE)
 add_dependencies(my_custom_srv_msg_pkg_generate_messages_nodejs _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
+add_dependencies(my_custom_srv_msg_pkg_generate_messages_nodejs _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(my_custom_srv_msg_pkg_gennodejs)
@@ -168,6 +205,12 @@ _generate_srv_py(my_custom_srv_msg_pkg
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_custom_srv_msg_pkg
 )
+_generate_srv_py(my_custom_srv_msg_pkg
+  "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/my_custom_srv_msg_pkg
+)
 
 ### Generating Module File
 _generate_module_py(my_custom_srv_msg_pkg
@@ -182,6 +225,8 @@ add_dependencies(my_custom_srv_msg_pkg_generate_messages my_custom_srv_msg_pkg_g
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv" NAME_WE)
+add_dependencies(my_custom_srv_msg_pkg_generate_messages_py _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv" NAME_WE)
 add_dependencies(my_custom_srv_msg_pkg_generate_messages_py _my_custom_srv_msg_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

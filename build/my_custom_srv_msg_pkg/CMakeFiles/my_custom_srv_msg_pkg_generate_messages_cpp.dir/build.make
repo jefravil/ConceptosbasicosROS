@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/user/catkin_ws/build
 include my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp.dir/progress.make
 
 my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp: /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/MyCustomServiceMessage.h
+my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp: /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h
 
 
 /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/MyCustomServiceMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -63,8 +64,16 @@ my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp: /h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from my_custom_srv_msg_pkg/MyCustomServiceMessage.srv"
 	cd /home/user/catkin_ws/src/my_custom_srv_msg_pkg && /home/user/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h: /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv
+/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from my_custom_srv_msg_pkg/BB8CustomServiceMessage.srv"
+	cd /home/user/catkin_ws/src/my_custom_srv_msg_pkg && /home/user/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
+
 my_custom_srv_msg_pkg_generate_messages_cpp: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp
 my_custom_srv_msg_pkg_generate_messages_cpp: /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/MyCustomServiceMessage.h
+my_custom_srv_msg_pkg_generate_messages_cpp: /home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h
 my_custom_srv_msg_pkg_generate_messages_cpp: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp.dir/build.make
 
 .PHONY : my_custom_srv_msg_pkg_generate_messages_cpp

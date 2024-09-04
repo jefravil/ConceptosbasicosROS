@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/user/catkin_ws/devel/share/common-lisp/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.lisp"
   "/home/user/catkin_ws/devel/share/common-lisp/ros/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.lisp"
   "CMakeFiles/my_custom_srv_msg_pkg_generate_messages_lisp"
 )

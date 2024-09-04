@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/manifest.l"
+  "/home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.l"
   "/home/user/catkin_ws/devel/share/roseus/ros/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.l"
   "CMakeFiles/my_custom_srv_msg_pkg_generate_messages_eus"
 )

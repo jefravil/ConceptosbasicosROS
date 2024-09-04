@@ -38,7 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_srv_msg_pkg/srv" TYPE FILE FILES "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_srv_msg_pkg/srv" TYPE FILE FILES
+    "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv"
+    "/home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

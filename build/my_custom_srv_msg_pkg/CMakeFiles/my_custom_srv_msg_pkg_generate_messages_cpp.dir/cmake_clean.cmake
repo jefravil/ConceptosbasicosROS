@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/BB8CustomServiceMessage.h"
   "/home/user/catkin_ws/devel/include/my_custom_srv_msg_pkg/MyCustomServiceMessage.h"
   "CMakeFiles/my_custom_srv_msg_pkg_generate_messages_cpp"
 )

@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/user/catkin_ws/build
 include my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py.dir/progress.make
 
 my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_MyCustomServiceMessage.py
+my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_BB8CustomServiceMessage.py
 my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/__init__.py
 
 
@@ -62,13 +63,20 @@ my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py: /ho
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV my_custom_srv_msg_pkg/MyCustomServiceMessage"
 	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv
 
+/home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_BB8CustomServiceMessage.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_BB8CustomServiceMessage.py: /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV my_custom_srv_msg_pkg/BB8CustomServiceMessage"
+	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/user/catkin_ws/src/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p my_custom_srv_msg_pkg -o /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv
+
 /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/__init__.py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_MyCustomServiceMessage.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for my_custom_srv_msg_pkg"
+/home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/__init__.py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_BB8CustomServiceMessage.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for my_custom_srv_msg_pkg"
 	cd /home/user/catkin_ws/build/my_custom_srv_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv --initpy
 
 my_custom_srv_msg_pkg_generate_messages_py: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py
 my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_MyCustomServiceMessage.py
+my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/_BB8CustomServiceMessage.py
 my_custom_srv_msg_pkg_generate_messages_py: /home/user/catkin_ws/devel/lib/python3/dist-packages/my_custom_srv_msg_pkg/srv/__init__.py
 my_custom_srv_msg_pkg_generate_messages_py: my_custom_srv_msg_pkg/CMakeFiles/my_custom_srv_msg_pkg_generate_messages_py.dir/build.make
 

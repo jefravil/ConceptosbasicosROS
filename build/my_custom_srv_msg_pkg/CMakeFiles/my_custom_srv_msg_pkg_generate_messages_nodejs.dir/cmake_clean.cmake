@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/user/catkin_ws/devel/share/gennodejs/ros/my_custom_srv_msg_pkg/srv/BB8CustomServiceMessage.js"
   "/home/user/catkin_ws/devel/share/gennodejs/ros/my_custom_srv_msg_pkg/srv/MyCustomServiceMessage.js"
   "CMakeFiles/my_custom_srv_msg_pkg_generate_messages_nodejs"
 )
