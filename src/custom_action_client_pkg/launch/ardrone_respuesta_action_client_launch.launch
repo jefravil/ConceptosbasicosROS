@@ -1,0 +1,8 @@
+<launch>
+  <node pkg ="my_action_client_example_pkg"
+        type="resolucion_ardrone_client.py"
+        name="ardrone_action_respuesta_client"
+        output="screen">
+  </node>
+
+</launch>
