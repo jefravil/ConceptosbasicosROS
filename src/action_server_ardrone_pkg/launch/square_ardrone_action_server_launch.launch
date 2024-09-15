@@ -1,0 +1,8 @@
+<launch>
+  <node pkg ="action_server_ardrone_pkg"
+        type="square_ardrone_action_server.py"
+        name="ardroneSquareClass"
+        output="screen">
+  </node>
+
+</launch>

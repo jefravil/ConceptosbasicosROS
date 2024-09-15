@@ -16,6 +16,7 @@ class FibonacciClass(object):
     self._as = actionlib.SimpleActionServer("fibonacci_as", FibonacciAction, self.goal_callback, False)
     self._as.start()
     
+    
   def goal_callback(self, goal):
     # this callback is called when the action server is called.
     # this is the function that computes the Fibonacci sequence

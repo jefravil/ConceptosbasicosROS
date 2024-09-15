@@ -37,7 +37,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=custom_action_client_pkg
+CATKIN_WHITELIST_PACKAGES:STRING=actions_quiz
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -378,6 +378,21 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
+
+//Value Computed by CMake
+action_server_ardrone_pkg_BINARY_DIR:STATIC=/home/user/catkin_ws/build/action_server_ardrone_pkg
+
+//Value Computed by CMake
+action_server_ardrone_pkg_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/action_server_ardrone_pkg
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
+
+//Value Computed by CMake
+actions_quiz_BINARY_DIR:STATIC=/home/user/catkin_ws/build/actions_quiz
+
+//Value Computed by CMake
+actions_quiz_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/actions_quiz
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
